@@ -80,7 +80,7 @@ export default function Home() {
             transition={{ delay: 0.2 }}
             className="max-w-3xl mx-auto text-stone-500 text-lg md:text-xl font-light leading-relaxed mb-14 font-serif italic antialiased px-4"
           >
-            The industry is flooded with cheap plastics and paid reviews. I got tired of guessing, so I started tearing them apart myself. We are pivoting from being just a boutique to building the infrastructure for FSA/HSA eligibility and, ultimately, insurance coverage. We are getting this hardware recognized for what it actually is: medical equipment. Welcome to Pixie's Pantry-where the research is already done.
+            The industry is flooded with cheap plastics and paid reviews. I got tired of guessing, so I started tearing them apart myself. We are pivoting from being just a boutique to building the infrastructure for FSA/HSA eligibility and, ultimately, insurance coverage. We are getting this hardware recognized for what it actually is: medical equipment. Welcome to Pixie's Pantry—where the research is already done.
           </motion.p>
 
           <motion.div 
@@ -193,11 +193,11 @@ export default function Home() {
         <div className="max-w-4xl mx-auto px-6 text-center relative z-10">
           <div className="w-16 md:w-24 h-[2px] bg-gradient-to-r from-transparent via-rose-300 to-transparent mx-auto mb-12 md:mb-16"></div>
           <p className="text-3xl md:text-4xl lg:text-5xl font-serif italic text-stone-700 leading-tight md:leading-tight mb-16 antialiased">
-            "Transparency isn't a feature-it's the foundation. We aren't just selling hardware; we're pushing for healthcare recognition. If it's on our shelf, I've personally verified its integrity."
+            "Transparency isn't a feature—it's the foundation. We aren't just selling hardware; we're pushing for healthcare recognition. If it's on our shelf, I've personally verified its integrity."
           </p>
           <div className="flex flex-col items-center gap-3">
             <span className="text-[11px] md:text-[12px] font-black text-stone-900 uppercase tracking-[0.4em] md:tracking-[0.6em]">
-              - DUSTY LYN MCLEAN
+              — DUSTY LYN MCLEAN
             </span>
             <span className="text-[9px] md:text-[10px] font-bold text-stone-400 uppercase tracking-[0.3em] md:tracking-widest">
               FOUNDER & CHIEF AUDITOR
