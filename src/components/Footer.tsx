@@ -27,7 +27,7 @@ export default function Footer() {
           <div>
             <h4 className="text-[10px] font-black uppercase tracking-[0.4em] mb-8 text-stone-400">REGISTRY</h4>
             <ul className="space-y-5 text-[11px] font-bold text-stone-600 uppercase tracking-[0.2em]">
-              <li><a href="https://vapes.pixiespantryshop.com" target="_blank" rel="noopener noreferrer" className="hover:text-rose-500 transition-colors">PROVISIONS</a></li>
+              <li><Link to="/provisions" className="hover:text-rose-500 transition-colors">PROVISIONS</Link></li>
               <li><Link to="/" className="hover:text-rose-500 transition-colors">MAIN PORTAL</Link></li>
               <li><Link to="/audit" className="hover:text-rose-500 transition-colors">THE AUDIT</Link></li>
             </ul>

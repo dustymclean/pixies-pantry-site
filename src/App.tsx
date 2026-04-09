@@ -8,6 +8,8 @@ import Sanctuary from './pages/Sanctuary';
 import Support from './pages/Support';
 import Logistics from './pages/Logistics';
 import Warranty from './pages/Warranty';
+import Provisions from './pages/Provisions';
+import Account from './pages/Account';
 
 function ScrollToTop() {
   const { pathname, hash } = useLocation();
@@ -40,6 +42,8 @@ export default function App() {
             <Route path="/support" element={<Support />} />
             <Route path="/logistics" element={<Logistics />} />
             <Route path="/warranty" element={<Warranty />} />
+            <Route path="/provisions" element={<Provisions />} />
+            <Route path="/account" element={<Account />} />
           </Routes>
         </main>
         <Footer />

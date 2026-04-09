@@ -1,5 +1,6 @@
 import { Truck, Package, ShieldCheck, MapPin, ArrowRight, ClipboardCheck } from 'lucide-react';
 import { motion } from 'motion/react';
+import { Link } from 'react-router-dom';
 
 export default function Logistics() {
   return (
@@ -66,9 +67,9 @@ export default function Logistics() {
               <p className="text-sm text-stone-600 leading-relaxed">
                 Orders are processed within 24-48 business hours. We utilize specialized shipping buffers to ensure delicate quartz and titanium components remain calibrated during transit. <strong>Adult Signature (21+) is mandatory</strong> for all deliveries—no exceptions.
               </p>
-              <a href="https://vapes.pixiespantryshop.com/account" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 text-[10px] font-black text-rose-600 uppercase tracking-widest border-b border-rose-200 pb-1 hover:text-rose-800 transition-colors">
+              <Link to="/account" className="inline-flex items-center gap-2 text-[10px] font-black text-rose-600 uppercase tracking-widest border-b border-rose-200 pb-1 hover:text-rose-800 transition-colors">
                 Track Your Provision <ArrowRight className="w-3 h-3" />
-              </a>
+              </Link>
             </div>
           </div>
         </section>
@@ -110,12 +111,12 @@ export default function Logistics() {
             <p className="text-stone-400 font-serif italic text-xl leading-relaxed antialiased">
               Have questions about your delivery or need to update your coordinates? Our support desk is ready to assist.
             </p>
-            <a 
-              href="/support" 
+            <Link 
+              to="/support" 
               className="inline-flex items-center gap-3 px-12 py-6 bg-white text-stone-900 rounded-full text-[11px] font-black uppercase tracking-[0.2em] hover:bg-rose-50 transition-all"
             >
               Contact Support
-            </a>
+            </Link>
           </div>
         </section>
       </main>

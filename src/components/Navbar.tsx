@@ -19,7 +19,7 @@ export default function Navbar() {
         </Link>
 
         <div className="hidden lg:flex items-center gap-8">
-          <a href="https://vapes.pixiespantryshop.com" target="_blank" rel="noopener noreferrer" className="text-[10px] font-black text-stone-400 hover:text-stone-900 uppercase tracking-[0.3em] transition-all">Provisions</a>
+          <Link to="/provisions" className="text-[10px] font-black text-stone-400 hover:text-stone-900 uppercase tracking-[0.3em] transition-all">Provisions</Link>
           <Link to="/audit" className="text-[10px] font-black text-stone-400 hover:text-stone-900 uppercase tracking-[0.3em] transition-all">The Audit</Link>
           <Link to="/sanctuary" className="text-[10px] font-black text-stone-400 hover:text-stone-900 uppercase tracking-[0.3em] transition-all">Knowledge Base</Link>
           <Link to="/logistics" className="text-[10px] font-black text-stone-400 hover:text-stone-900 uppercase tracking-[0.3em] transition-all">Logistics</Link>
@@ -28,10 +28,10 @@ export default function Navbar() {
         </div>
 
         <div className="flex items-center gap-4">
-          <a href="https://vapes.pixiespantryshop.com/" target="_blank" rel="noopener noreferrer" className="relative group flex items-center gap-3 bg-stone-900 hover:bg-black px-6 py-2.5 rounded-full transition-all duration-300 shadow-lg shadow-stone-200">
+          <Link to="/provisions" className="relative group flex items-center gap-3 bg-stone-900 hover:bg-black px-6 py-2.5 rounded-full transition-all duration-300 shadow-lg shadow-stone-200">
             <ShoppingBag className="w-4 h-4 text-rose-300" />
             <span className="text-[10px] font-black text-white uppercase tracking-widest">Shop Provisions</span>
-          </a>
+          </Link>
         </div>
       </div>
     </nav>
